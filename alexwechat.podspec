@@ -37,9 +37,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'alexwechat/Classes/**/*'
   
-  s.resource_bundles = {
-    'alexwechat' => ['alexwechat/Assets/**/*']
-}
+#   s.resource_bundles = {
+#     'alexwechat' => ['alexwechat/Assets/**/*']
+# }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
