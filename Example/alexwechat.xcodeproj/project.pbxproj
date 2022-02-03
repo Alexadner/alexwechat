@@ -15,12 +15,12 @@
 		01B9DD19DCE287B482C72E36 /* Pods-alexwechat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alexwechat_Tests.release.xcconfig"; path = "Target Support Files/Pods-alexwechat_Tests/Pods-alexwechat_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1BA096C06C34A9AA9E827205 /* Pods_alexwechat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alexwechat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		402143EAFFB9C959E38F588C /* Pods-alexwechat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alexwechat_Tests.debug.xcconfig"; path = "Target Support Files/Pods-alexwechat_Tests/Pods-alexwechat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		43310C29FA108C3A1C487094 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		43310C29FA108C3A1C487094 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* alexwechat_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alexwechat_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		D57D0E719982A979552E62B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FF7B34932AE38DE7C449C62E /* alexwechat.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = alexwechat.podspec; path = ../alexwechat.podspec; sourceTree = "<group>"; };
+		D57D0E719982A979552E62B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FF7B34932AE38DE7C449C62E /* alexwechat.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = alexwechat.podspec; path = ../alexwechat.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				402143EAFFB9C959E38F588C /* Pods-alexwechat_Tests.debug.xcconfig */,
 				01B9DD19DCE287B482C72E36 /* Pods-alexwechat_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
