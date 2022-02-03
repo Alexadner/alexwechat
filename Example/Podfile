@@ -1,0 +1,6 @@
+use_frameworks!
+target 'alexwechat_Tests' do
+  pod 'alexwechat', :path => '../'
+  
+  
+end
