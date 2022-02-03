@@ -1,0 +1,16 @@
+PODS:
+  - alexwechat (0.1.0)
+
+DEPENDENCIES:
+  - alexwechat (from `../`)
+
+EXTERNAL SOURCES:
+  alexwechat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  alexwechat: 4f38646a54454e9489a177e97912ca21d9600f40
+
+PODFILE CHECKSUM: 9712b4bfb3dfbacc27c4fbe2b3c6a5880931f894
+
+COCOAPODS: 1.11.2
