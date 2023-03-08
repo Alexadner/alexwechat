@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'AlexWeChat'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = '微信SDK'
     
     # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.pod_target_xcconfig = {
-        'VALID_ARCHS' => 'arm64e arm64 armv7 armv7s x86_64',
+        'VALID_ARCHS' => 'arm64e arm64 armv7 armv7s',
         'DEFINES_MODULE' => 'YES',
         'OTHER_LDFLAGS' => '-all_load',
         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
