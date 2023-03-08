@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'AlexWeChat'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
     s.summary          = '微信SDK'
     
     # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     微信SDK 带支付
     DESC
     
-    s.homepage         = 'https://github.com/Alex/alexwechat'
+    s.homepage         = 'https://github.com/Alexadner/alexwechat'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Alex' => 'alexeasycase@gmail.com' }
@@ -29,18 +29,14 @@ Pod::Spec.new do |s|
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.pod_target_xcconfig = {
-        'VALID_ARCHS' => 'arm64e arm64 armv7 armv7s',
         'DEFINES_MODULE' => 'YES',
-        'OTHER_LDFLAGS' => '-all_load',
-        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     s.frameworks  = 'Security', 'CoreGraphics', 'WebKit'
     s.libraries = 'z', 'c++'
     s.swift_version = '5.0'
     s.static_framework = true
     
-    s.ios.deployment_target = '11.0'
+    s.ios.deployment_target = '13.0'
     s.vendored_libraries = 'alexwechat/Classes/**/*.a'
     s.source_files = 'alexwechat/Classes/**/*'
     
